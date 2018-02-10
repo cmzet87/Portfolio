@@ -1,0 +1,60 @@
+.main-title {
+  color: $font-color-light;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 800;
+  margin-bottom: 20px;
+  font-size: 3.5em;
+}
+
+h4 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 22px;
+}
+
+p {
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 1em;
+  line-height: 2em;
+}
+
+a {
+  color: green;
+}
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+a:focus {
+  color: white;
+}
+a:hover {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:active {
+  color: red;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.yellow {
+  color: $yellow-dark;
+}
+
+.underline {
+  text-decoration: underline;
+}

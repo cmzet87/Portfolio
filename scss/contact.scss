@@ -1,0 +1,38 @@
+#contactForm {
+  display: block;
+  width: 400px;
+  div {
+    margin-top: 1em;
+    label {
+      display: block;
+      margin-bottom: 2px;
+      font-size: 14px;
+      color: #808080;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 5px;
+      border: 1px solid #b6b6b6;
+      outline: none;
+      &:focus {
+        border-color: #ffd200;
+      }
+    }
+    textarea {
+
+    }
+    textarea {
+      line-height: 1.2em;
+      height: 8em;
+      resize: vertical
+    }
+    button {
+      background-color: #ffd200;
+      border: none;
+      padding: 10px 40px;
+      color: white;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "home": {
+    "title": "/ Home /",
+    "content": "home.html",
+    "interests": "I LOVE MOUNTAINS",
+    "background": "url('img/me8.jpg')"
+  },
+  "skill": {
+    "title": "/ Skill /",
+    "content": "skill.html",
+    "interests": "I LOVE MUSIC",
+    "background": "url('img/music.jpg')"
+  },
+  "work": {
+    "title": "/ Work /",
+    "content": "work.html",
+    "interests": "I LOVE HISTORY",
+    "background": "url('img/history.jpg')"
+  },
+  "contact": {
+    "title": "/ Contact /",
+    "content": "contact.html",
+    "interests": "I LOVE IT",
+    "background": "url('img/me2.jpg')"
+  }
+}

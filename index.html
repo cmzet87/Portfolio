@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yellow's portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Montserrat:300,400,600,700|Open+Sans:300,400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- build:css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- endbuild -->
+  </head>
+  <body>
+    <div id="background-image" class="hidden-xs"></div>
+    <div id="window" class="container-fluid">
+      <div class="row">
+        <section id="left-side" class="col-xs-12 col-lg-6 side hidden-xs hidden-sm">
+          <img id="logo" src="img/logo.png" alt="logo">
+          <nav id="nav">
+            <ul>
+              <li class="menu-element home-menu"><a href="#">Home</a></li>
+              <li class="menu-element skill-menu"><a href="#">Skill</a></li>
+              <li class="menu-element work-menu"><a href="#">Work</a></li>
+              <li class="menu-element contact-menu"><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+          <i id="back" class="fa fa-arrow-circle-left fa-2x love slide-arrow hidden-xs" aria-hidden="true"></i>
+        </section>
+        <nav id="mobile-nav" class="hidden-md hidden-lg left-mobile-slide-out">
+          <ul>
+            <li class="menu-element home-menu"><a href="#">Home</a></li>
+            <li class="menu-element skill-menu"><a href="#">Skill</a></li>
+            <li class="menu-element work-menu"><a href="#">Work</a></li>
+            <li class="menu-element contact-menu"><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <main id="right-side" class="col-xs-12 col-lg-6 side">
+          <nav id="res-navigation" class="hidden-md hidden-lg">
+            <img src="img/logo.png" alt="logo">
+            <i class="fa fa-bars fa-4x" id="ham-bars" aria-hidden="true"></i>
+          </nav>
+          <header id="header">
+            <p class="main-title">/ Home page /</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/cmzet87" target="_blank"><i class="fa fa-facebook social-icon facebook-icon" aria-hidden="true"></i></a>
+              <a href="https://github.com/cmzet87" target="_blank"><i class="fa fa-github social-icon github-icon" aria-hidden="true"></i></a>
+              <a href="https://codepen.io/cmzet87" target="_blank"><i class="fa fa-codepen social-icon codepen-icon" aria-hidden="true"></i></a>
+            </div>
+          </header>
+          <section class="mainContent">
+            <article class="content-block">
+               <h2 class="article-title">Welcome</h2>
+               <p>Mateusz here</p>
+               <p>I am a junior frontend developer candidate from Warsaw.<br>
+               Looking for a job where I could smile,<br>
+               learn and talk about javascript. There is so many fields that I want to<br>
+               develop my self in (and code).</p>
+               <p>If You want to know me a little bit better, check the <span class="bold underline general">general</span> info,<br>
+               but now - lets take a quick tour about the<br>
+               most important things.</p>
+               <p>First of all, I believe, that You want to</p>
+               <a href="cv.pdf"><button type="button" id="btn" data-text="check my cv"><span>download</span></button></a>
+               <p>Then, please take a look at what I can.</p>
+               <p>Check my skill...</p>
+            </article>
+            <aside id="generalInfo">
+             <i id="closeGeneral" class="fa fa-times-circle fa-2x" aria-hidden="true"></i>
+             <h4>Mateusz Żółkiewski</h4>
+             <p><span class="general-key">CURRENT OCCUPATION:</span> IT Support Specialist</p>
+             <p><span class="general-key">CITY:</span> Warsaw</p>
+             <p><span class="general-key">AGE:</span> 30</p>
+             <p><span class="general-key">SENSE OF HUMOUR:</span> High <img src="img/smile.png" alt="smile"></p>
+             <hr>
+             <p>I like doing things for my brain to be bright, for my body to not be plain and my spirit to bright my brain.</p>
+           </aside>
+          </section>
+          <aside class="aside">
+            <p id="interests">I LOVE MOUNTAINS</p>
+            <i class="fa-angle-left fa-3x arrow-info arrow-info-animation" aria-hidden="true"></i>
+          </aside>
+        </main>
+      </div>
+    </div>
+
+    <script src="https://use.fontawesome.com/8eb17d2eaa.js"></script>
+    <!-- build:js -->
+    <script src="js/script.js"></script>
+    <!-- endbuild  -->
+  </body>
+</html>
